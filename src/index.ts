@@ -14,14 +14,18 @@ import htmlAttributes from "./references/HTML Attributes.csv";
 import htmlElements from "./references/HTML Elements.csv";
 import htmlGlobalAttributes from "./references/HTML Global Attributes.csv";
 
-const cssPseudoClassesReferences: TCssPseudoClassesReference[] =
-  cssPseudoClasses;
-const cssSelectorsReferences: TCssSelectorsReference[] = cssSelectors;
-const filesReferences: TFilesReference[] = files;
-const htmlAttributesReferences: THtmlAttributesReference[] = htmlAttributes;
-const htmlElementsReferences: THtmlElementsReference[] = htmlElements;
-const htmlGlobalAttributesReferences: THtmlGlobalAttributesReference[] =
-  htmlGlobalAttributes;
+const cssPseudoClassesReferences: TCssPseudoClassesReference[] = [
+  ...cssPseudoClasses,
+];
+const cssSelectorsReferences: TCssSelectorsReference[] = [...cssSelectors];
+const filesReferences: TFilesReference[] = [...files];
+const htmlAttributesReferences: THtmlAttributesReference[] = [
+  ...htmlAttributes,
+];
+const htmlElementsReferences: THtmlElementsReference[] = [...htmlElements];
+const htmlGlobalAttributesReferences: THtmlGlobalAttributesReference[] = [
+  ...htmlGlobalAttributes,
+];
 
 export {
   cssPseudoClassesReferences,

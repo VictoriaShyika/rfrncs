@@ -27,10 +27,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
-    library: "Rfrncs",
-    libraryTarget: "umd",
-    globalObject: "this",
-    umdNamedDefine: true,
   },
   devtool: "inline-source-map",
 };
