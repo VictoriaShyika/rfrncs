@@ -24,8 +24,13 @@ module.exports = {
     extensions: [".ts", ".js"],
   },
   output: {
-    filename: "index.js",
+    target: "web",
     path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
+    library: "Rfrncs",
+    libraryTarget: "umd",
+    globalObject: "this",
+    umdNamedDefine: true,
   },
   devtool: "inline-source-map",
 };
