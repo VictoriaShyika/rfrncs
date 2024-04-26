@@ -1,15 +1,15 @@
-export type TCssPseudoClassesReferences = {
+export type TCssPseudoClassesReference = {
     Name: string;
     Selector: string;
     Example: string;
     "Example description": string;
 };
-export type TCssSelectorsReferences = {
+export type TCssSelectorsReference = {
     Selector: string;
     Example: string;
     "Example description": string;
 };
-export type TFilesReferences = {
+export type TFilesReference = {
     Name: string;
     Description: string;
     Extension: string;
@@ -17,7 +17,7 @@ export type TFilesReferences = {
     Icon: string;
     Featured: string;
 };
-export type THtmlAttributesReferences = {
+export type THtmlAttributesReference = {
     Name: string;
     Attribute: string;
     "Belongs to": string;
@@ -36,7 +36,7 @@ export type THtmlElementsReference = {
     Featured: string;
     "Cover Image": string;
 };
-export type THtmlGlobalAttributesReferences = {
+export type THtmlGlobalAttributesReference = {
     Name: string;
     Attribute: string;
     Description: string;
