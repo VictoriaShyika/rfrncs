@@ -23,3 +23,12 @@ export const htmlAttributesReferences: THtmlAttributesReferences[] =
 export const htmlElementsReferences: THtmlElementsReference[] = htmlElements;
 export const htmlGlobalAttributesReferences: THtmlGlobalAttributesReferences[] =
   htmlGlobalAttributes;
+
+export type {
+  TCssPseudoClassesReferences,
+  TCssSelectorsReferences,
+  TFilesReferences,
+  THtmlAttributesReferences,
+  THtmlElementsReference,
+  THtmlGlobalAttributesReferences,
+};
