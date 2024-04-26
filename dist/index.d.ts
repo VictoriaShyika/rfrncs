@@ -1,8 +1,9 @@
 import { TCssPseudoClassesReferences, TCssSelectorsReferences, TFilesReferences, THtmlAttributesReferences, THtmlElementsReference, THtmlGlobalAttributesReferences } from "./types/types";
-export declare const cssPseudoClassesReferences: TCssPseudoClassesReferences[];
-export declare const cssSelectorsReferences: TCssSelectorsReferences[];
-export declare const filesReferences: TFilesReferences[];
-export declare const htmlAttributesReferences: THtmlAttributesReferences[];
-export declare const htmlElementsReferences: THtmlElementsReference[];
-export declare const htmlGlobalAttributesReferences: THtmlGlobalAttributesReferences[];
+import cssPseudoClassesReferences from "./references/CSS Pseudo Classes.csv";
+import cssSelectorsReferences from "./references/CSS Selectors.csv";
+import filesReferences from "./references/Files.csv";
+import htmlAttributesReferences from "./references/HTML Attributes.csv";
+import htmlElementsReferences from "./references/HTML Elements.csv";
+import htmlGlobalAttributesReferences from "./references/HTML Global Attributes.csv";
+export { cssPseudoClassesReferences, cssSelectorsReferences, filesReferences, htmlAttributesReferences, htmlElementsReferences, htmlGlobalAttributesReferences, };
 export type { TCssPseudoClassesReferences, TCssSelectorsReferences, TFilesReferences, THtmlAttributesReferences, THtmlElementsReference, THtmlGlobalAttributesReferences, };

@@ -24,7 +24,6 @@ module.exports = {
     extensions: [".ts", ".js"],
   },
   output: {
-    target: "web",
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
     library: "Rfrncs",
